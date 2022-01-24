@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login Page by Siyad mon</title>
+ <!--	<link rel="stylesheet" type="text/css" href="style.css">   -->
+</head>
+<body>
+	<div class="form">
+
+<form>
+	
+<h1>Welcome Back</h1>
+<input type="text" placeholder ="Email">
+<input type="password" placeholder="Password" >
+<input type="checkbox"> Remember me? 
+<button>Login</button>
+<a href="#">Forgot your Password?</a>
+</form>
+</div>
+
+</body>
+
+
+
+<style>
+	
+	body{
+	padding: 0;
+	margin: 0;
+	background-size: cover;
+    background-image: url("images/work-desk.jpg");  
+	background-size: cover;
+}
+
+
+
+.form{
+ 
+     font-family: "Roboto", sans-serif;
+     position: relative;
+     z-index: 1;
+     background: #FFFFFF;
+     opacity: 99%;
+     max-width: 270px;
+     margin: 100px auto 100px;
+     padding: 10px 45px 30px 45px;
+     text-align: center;
+     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+     border-radius: 10px;
+}
+
+    
+
+.form p{
+	font-size: 15px;
+	padding: 1px;
+	text-align: center;
+
+}
+
+.form input{
+	outline: 0;
+	border-radius: 10px;
+	background: #F2F2F2;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+  .form input:hover{
+  	background-color: #D3F8F9;
+  	transition: all 1s ease 0s;
+  }
+
+   .form input:focus{
+   	background-color: #D3F8F9;
+  	transition: all 1s ease 0s;
+   }
+
+   .form button{
+   	text-transform: uppercase;
+   	outline: 0;
+   	border-radius: 10px;
+   	background: #00008B;
+   	width: 100%;
+   	border: 0;
+   	padding: 15px;
+   	color: #FFFFFF;
+   	font-size: 14px;
+   	cursor: pointer;
+   }
+
+   h1 { font-weight:normal; }
+</style>
+
+
+</html>
+
+
+
